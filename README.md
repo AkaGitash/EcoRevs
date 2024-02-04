@@ -1,6 +1,6 @@
-# responsivedashboard
-
-A new Flutter project created with FlutLab - https://flutlab.io
+# The Issue at Hand
+Global Waste Management
+Waste management is a very serious issue across the world. In simple terms, only specific materials can be recycled, and when other objects are mixed in, the entire batch has to be thrown into the garbage. Whenever citizens don’t recycle properly or dispose of waste improperly, waste management is a harder process. Instead of sorting through the waste, it is simply dumped into landfills or oceans, or is incinerated. If everyday citizens were to recycle items correctly, it would make a huge positive impact on the world.
 
 ## Getting Started
 
