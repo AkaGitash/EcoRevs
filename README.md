@@ -30,7 +30,7 @@ When materials are recycled, much fewer resources are required to recreate the s
 ## How it would work
 
 ## Links
-<img src="[https://your-image-url.type](https://github.com/AkaGitash/EcoRevs/assets/98696650/cbd655c8-a65f-4dbb-87f0-b4e0add64ffa)" width="200" height="200">
+<img src="[https://your-image-url.type](https://github.com/AkaGitash/EcoRevs/assets/98696650/cbd655c8-a65f-4dbb-87f0-b4e0add64ffa)" width="200" height="200"/>
 
 ![WhatsApp Image 2024-02-07 at 9 12 10 AM (2)](https://github.com/AkaGitash/EcoRevs/assets/98696650/73396785-26a2-4ac2-ab55-821db0ceade5){ width = 50%}
 
