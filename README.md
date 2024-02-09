@@ -55,13 +55,26 @@ If one individual faces any sort of trouble with the bin or the mobile applicati
 # Languages, Tools and Libraries Used
 <li>
 HTML, JavaScript, CSS
+</li>
+<li>
 Flutter, Dart, Gradle
+</li>
+<li>
 Google Firebase, firebase-auth
+</li>
+<li>
 Azure, Azure-cloud
+</li>
+<li>
 Visual Studio Code
+</li>
+<li>
 Android-Studio
+</li>
+<li>
 GitHub
 </li>
+
 
 
 
