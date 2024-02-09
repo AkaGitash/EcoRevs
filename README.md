@@ -52,8 +52,16 @@ Using the Firebase Realtime Database one can access their old trash submission h
 ## Troubleshooting access 
 If one individual faces any sort of trouble with the bin or the mobile application, he/she can submit the issue with single click, directing them to the issue submission page, where an ticket will be created, which will be looked at by our troubleshooting experts, and the solution will be made availabe as soon as possible, currently we're using github as our issue ticket mechanism, on larger ticket submissions we'll create our own server.
 
-
-
+# Languages, Tools and Libraries Used
+<li>
+HTML, JavaScript, CSS
+Flutter, Dart, Gradle
+Google Firebase, firebase-auth
+Azure, Azure-cloud
+Visual Studio Code
+Android-Studio
+GitHub
+</li>
 
 
 
