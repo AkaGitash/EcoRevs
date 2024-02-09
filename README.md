@@ -15,25 +15,34 @@ To tackle the aforementioned issues, EcoRevs was developed. This product sorts t
 ## How is it different from other Products?
 There are several other products out in the market which are working towards the same goal. However, they are ineffective due to the fact that they are applied to large waste management and recycling plants. Most of this work is done through labor workers at plants, but with the introduction of machine learning, large machines and software have been used to sort through recycling. The key difference between these sorting methods and EcoRevs is the fact that our bin can be applied to smaller locations. It tackles the root of the problem right away, when the item is disposed of, instead of when all the items are gathered. This makes the problem much easier to solve, and this AI system can easily be implemented using a camera, and a simple flap system within a disposal container.
 
-# How it Works
+# How to use EcoRevs monitoring application
 
-1. Entry Mechanism:
-Our bin efficiently receives waste through a flap-like structure and a circular disc with six sections, allowing independent waste transfer to sub-bins.
+Making an account is also as easy as signing in with your Google account! Simply sign in and you are able to track your bin's status and also customize the bin as per your needs, get rewarded with coupons of renowned brands for throwing your trash. The user experience is one that is clean and elegant, allowing it to be user-handy.
 
-2. Alignment of the disc:
-An infrared (IR) sensor detects the presence of a person, prompting the Raspberry Pi to align the disc's free section with the entry flap for streamlined waste identification and segregation.
+# Features
+Our application hosts numerous features that the user can engage with.
 
-3. Initial Waste Analysis:
-Upon detection, a metallic sensor connected to the Raspberry Pi analyzes incoming waste. If metallic, the waste goes to the non-biodegradable sub-bin; otherwise, it proceeds to the next stage.
+## FEATURE	DESCRIPTION
+Firebase Authentication :	Using Firebase Authentication, we can easily let users sign in using their Google account. It is a simple way to get their name, email/username, and profile picture in the click of only a few buttons.
 
-4. Image Recognition and AI Processing:
-Using PiCam, the bin captures an image sent to AzureML via Azure IoT Hub. A custom YOLOV8 model identifies and classifies the waste, ensuring accurate sorting into the appropriate sub-bin, as soon as the trash falls into one of the sub-bin the ultrasonic sensor sends the data to firebase db and from there it's retrieved in our android application and displayed in the form of piecharts, if any one of the sub-bins is filled more than 80%, envac's central facility receives a notification, prompting waste transportation to commence.
+Firebase Realtime Database :	The Firebase Realtime Database is responsible for storing the sub-bin status of each individual. They are all saved in a JSON format that is easily accessible by the Android Application.
 
-5. Humidity-based Sorting:
-A calibrated humidity sensor inspects the waste; if moisture exceeds the threshold, it goes to the Biodegradable sub-bin. Otherwise, the circular disc rotates, and the disc flap directs the waste to the Unclassified sub-bin
+Firebase Storage :	The Firebase Storage is used to store images, such as uploaded pictures by the picam, These can later be accessed by the mobile application.
 
-6. Bin customization Settings: 
-With the help of mobile application, one can modify the bin as per their use cases, currently we've 4 ready-made models Economy model, Corporate model, Hospital model, Railways model. The bin can be custom made via the availabe settings to chnage each sub-bin as per user's need.
+Firebase realtime data fetch : The data of ultrasonic sensor is sent to the firebase and is stored there, then with an GET request the data is fetched back and displayed on the mobile application in form of ellusive graphics, such as pie-charts stating the current bin status, if any one of the sub-bins is filled more than 80%, envac's central facility receives a notification, prompting waste transportation to commence.
+
+Customization of the bin : With the help of mobile application, one can modify the bin as per their use cases, currently we've 4 ready-made models, Economy model, Corporate model, Hospital model, Railways model. The bin can also be custom made via the availabe settings to chnage each sub-bin as per user's need, these submission will be stored in our firebase db, and will be prompted to the ML model deployed on azure, which will chnage the current model.
+
+Credit System : Our bin offers a reward system to attract users. When users deposit trash successfully, a Dynamic QR code is generated using UUIDs. Scanning this QR code adds reward points to their mobile app profile based on the type of waste. The points are determined by the current market value of recyclable items. Users can later redeem these credits as either coupons or cash. 
+These coupons can be sponsored by: 
+a. Local Businesses: Nearby restaurants, clothing shops, and other establishments in the vicinity of the bin can sponsor us. The mobile app will have a section for “Nearby Shops” to facilitate this. 
+b. Prominent Companies: Similar to popular mobile payment applications like Paytm and Gpay, our system will consist of coupons sponsored by companies like Zomato, Domino's, Lenskart, etc. Which can be redeemed against these points
+
+Monthly track : Using the Firebase Realtime Database one can access their old trash submission history, It's a simple way to get their monthly analytics of the ammount of trash thrown.
+
+Troubleshooting access : If one individual faces any sort of trouble with the bin or the mobile application, he/she can submit the issue with single click, directing them to the issue submission page, where an ticket will be created, which will be looked at by our troubleshooting experts, and the solution will be made availabe as soon as possible, currently we're using github as our issue ticket mechanism, on larger ticket submissions we'll create our own server.
+
+
 
 
 
