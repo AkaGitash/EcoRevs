@@ -10,6 +10,8 @@ When materials are recycled, much fewer resources are required to recreate the s
 
 # The Importance of the Product
 ## Why is this Product Important?
+To tackle the aforementioned issues, EcoRevs was developed. This product sorts through waste items one by one as they are thrown, determines whether they are recyclable, compostable, or simply garbage. It automatically sorts trash and  throws it in a specific bin. This will reduce carbon emissions by millions of tons if applied properly, and reduce environment harm. This product is necessary to improve waste management because no matter how many guides or brochures are given, people get caught up and forget to take time to dispose of items correctly. By applying this software to a simple bot in a large trashcan, it can automatically sort the items into the required bins. This minimizes the efforts required by the user, and maximizes effective waste management. In short, this product is the necessary bridge between pure laziness and a clean world.
+
 ## How is it different from other Products?
 
 # How it Works
