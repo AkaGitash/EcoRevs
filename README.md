@@ -35,8 +35,8 @@ Customization of the bin : With the help of mobile application, one can modify t
 
 Credit System : Our bin offers a reward system to attract users. When users deposit trash successfully, a Dynamic QR code is generated using UUIDs. Scanning this QR code adds reward points to their mobile app profile based on the type of waste. The points are determined by the current market value of recyclable items. Users can later redeem these credits as either coupons or cash. 
 These coupons can be sponsored by: 
-<hr>
-a. Local Businesses: Nearby restaurants, clothing shops, and other establishments in the vicinity of the bin can sponsor us. The mobile app will have a section for “Nearby Shops” to facilitate this. <br>
+
+a. Local Businesses: Nearby restaurants, clothing shops, and other establishments in the vicinity of the bin can sponsor us. The mobile app will have a section for “Nearby Shops” to facilitate this. <br><br>
 b. Prominent Companies: Similar to popular mobile payment applications like Paytm and Gpay, our system will consist of coupons sponsored by companies like Zomato, Domino's, Lenskart, etc. Which can be redeemed against these points
 
 Monthly track : Using the Firebase Realtime Database one can access their old trash submission history, It's a simple way to get their monthly analytics of the ammount of trash thrown.
